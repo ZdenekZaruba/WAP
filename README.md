@@ -1,2 +1,3 @@
 # WAP
-School
+
+Repozitář pro předmět webové aplikace.
