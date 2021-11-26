@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+@keyframes rotate {
+    100%{transform: rotate(360deg);}
+}
+
+.merkurRotate {
+    border-style: dashed;
+    border-color: white;
+    background-color: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    animation: rotate 15s linear infinite;
+}
+/**
+.merkurStin {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px 2px black inset ;
+}
+**/
+.merkur {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px 2px black inset;
+    border-radius: 90%;
+    animation: rotate 10s linear infinite;
+}
