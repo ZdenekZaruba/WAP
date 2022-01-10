@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.507);
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: cadetblue;
+}
+/*# sourceMappingURL=style.min.css.map */

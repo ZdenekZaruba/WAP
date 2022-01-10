@@ -1,0 +1,1 @@
+<footer>Created by &copy;Poeta 2021 &ensp; <a href="https://discord.gg/XtVvnVKdNv" target="_blank">Discord</a></footer>
