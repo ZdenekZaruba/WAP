@@ -13,6 +13,10 @@ class karel
         $this->direction = 's';
     }
 
+    public function drop()
+    {
+    }
+
     public function step($i = 1)
     {
         switch ($this->direction) {
