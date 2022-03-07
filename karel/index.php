@@ -16,9 +16,9 @@
         <h1> KAREL</h1>
 
         <div>
-            <form>
+            <form method="POST">
                 <fieldset>
-                    <textarea rows="10"></textarea>
+                    <textarea name="commands" rows="10"><?php echo filter_input(INPUT_POST, 'commands'); ?></textarea>
                     <button>Proveď</button>
                 </fieldset>
             </form>
