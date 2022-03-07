@@ -13,6 +13,24 @@ class karel
         $this->direction = 's';
     }
 
+    public function step()
+    {
+        switch ($this->direction) {
+            case 'n':
+                $this->y -= 1;
+                break;
+            case 'e':
+                $this->x += 1;
+                break;
+            case 's':
+                $this->y += 1;
+                break;
+            case 'w':
+                $this->x -= 1;
+                break;
+        }
+    }
+
     public function toHTML()
     {
         switch ($this->direction) {
